@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Student Registration Form</h3>
+  <form>
+    <p>Please enter relevent information</h4>
+    <p><small>Mandatory Field*</small></p>
+    <label for="district">District <small>(Institute District: Where you want to do your course)*</small></label><br>
+    <select name="" id="district">
+      <option value="" selected disabled>--Select One--</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Dhaka">Dhaka</option>
+      <option value="Joshor">Joshor</option>
+      <option value="Narail">Narail</option>
+    </select><br>
+    <label for="course">Course*</label><br>
+    <select name="" id="course"><br>
+      <option value="" selected disabled>--Select One--</option>
+      <option value="Web Design">Web Design & Development - 2020 (2020,February)</option>
+      <option value="Graphic Design">Graphic Design - 2020 (2020,February)</option>
+      <option value="Digital Marketing">Digital Marketing - 2020 (2020,February)</option>
+    </select><br>
+    <label for="Student">Student Name*</label><br>
+    <input type="text" name="" id="Student"><br>
+    <label for="father">Father Name*</label><br>
+    <input type="text" name="" id="father"><br>
+    <label for="mother">Mother Name*</label><br>
+    <input type="text" name="" id="mother"><br>
+    <fieldset>
+      <legend>Date of Birth*</legend>
+      <table>
+        <tr>
+          <td>
+            <label for="day">Day:</label><br>
+            <select name="" id="day">
+              <option value="" selected disabled>Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+          </td>
+          <td>
+            <label for="month">Month*</label><br>
+            <select name="" id="month">
+              <option value="" selected disabled>Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </td>
+          <td>
+            <label for="year">Year*</label><br>
+            <select name="" id="year">
+              <option value="" selected disabled>Select</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <label for="">Gender*</label>
+    <input type="radio" name="gender" id="male">
+    <label for="gender" id="male"><b>Male</b></label>
+    <input type="radio" name="gender" id="female">
+    <label for="gender" id="female"><b>Female</b></label><br>
+    
+    <label for="">Physically Handicapped*</label>
+    <input type="radio" name="Handicapped" id="yes">
+    <label for="yes"><b>Yes</b></label>
+    <input type="radio" name="Handicapped" id="no">
+    <label for="no"><b>No</b></label><br>
+
+    <label for="email">Email*</label><br>
+    <input type="email" name="" id="email"><br>
+    <label>(e.g: example@mail.com)</label><br>
+
+    <label for="phone">Phone (Must be 11 Digits)*</label><br>
+    <input type="tel" name="" id="phone"><br>
+    <label for="">(e.g:0155123456)</label><br>
+
+    <label for="Identification-type">Identification Type*</label><br>
+    <select name="" id="Identification-type">
+      <option value="" selected disabled>Select one</option>
+      <option value="">Birth Cirtificate no.</option>
+      <option value="">National Id.</option>
+    </select><br>
+
+    <label for="Identification">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label><br>
+    <input type="number" name="" id="Identification"><br>
+
+    <label for="district">Home District*</label><br>
+    <select name="" id="district">
+      <option value="" selected disabled>Select one</option>
+      <option value="">Khulna</option>
+      <option value="">Dhaka</option>
+    </select><br>
+
+    <label for="upazila">Upazila*</label><br>
+    <select name="" id="upazila">
+      <option value="" selected disabled>Select one</option>
+      <option value="">Khulna Sadar</option>
+      <option value="">Sonadanga</option>
+    </select><br>
+
+    <label for="village">Village/House No./Road No./Other Alternative*</label><br>
+    <input type="text" name="" id="village"><br>
+
+    <label for="post-office">Post Office*</label><br>
+    <input type="text" name="" id="post-office"><br>
+
+    <label for="education">Educational Qualification* (Higher Level)</label><br>
+    <select name="" id="education">
+      <option value="" selected disabled>Select one</option>
+      <option value="">Higher secondary</option>
+      <option value="">BSc</option>
+    </select><br>
+
+    <label for="">Have any computer?*</label>
+    <input type="radio" name="comp" id="yes">
+    <label for="yes"><b>Yes</b></label>
+    <input type="radio" name="comp" id="no">
+    <label for="no"><b>No</b></label><br>
+
+    <label for="photo">Photograph*</label><br>
+    <input type="file" name="" id="photo"><br>
+    <label for="">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</label><br>
+    
+    <label for="Signature">Signature*</label><br>
+    <input type="file" name="" id="Signature"><br>
+    <label for="">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</label><br>
+
+    <input type="submit" value="Submit Data">
+
+  </form>
+</body>
+
+</html>
